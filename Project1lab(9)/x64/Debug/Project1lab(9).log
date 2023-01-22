@@ -1,4 +1,3 @@
-﻿Source.obj : error LNK2005: "struct Data __cdecl isertData(void)" (?isertData@@YA?AUData@@XZ) уже определен в main.obj
-Source.obj : error LNK2005: "void __cdecl show(struct Data)" (?show@@YAXUData@@@Z) уже определен в main.obj
-Source.obj : error LNK2005: "class std::basic_ifstream<char,struct std::char_traits<char> > in" (?in@@3V?$basic_ifstream@DU?$char_traits@D@std@@@std@@A) уже определен в main.obj
-C:\Users\HP\Documents\Лабораторные работы (ОиМП)\lab9\bank-lab9\Projekt\Project1lab(9)\x64\Debug\Project1lab(9).exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
+﻿  sort.cpp
+C:\Users\HP\Documents\Лабораторные работы (ОиМП)\lab9\bank-lab9\Project1lab(9)\sort.cpp(80): warning C4715: sortByAmount: значение возвращается не при всех путях выполнения
+  Project1lab(9).vcxproj -> C:\Users\HP\Documents\Лабораторные работы (ОиМП)\lab9\bank-lab9\Project1lab(9)\x64\Debug\Project1lab(9).exe

@@ -4,6 +4,6 @@
 
 #include "bank_operations.h"
 
-void read(const char* file_name, book_subscription* array[], int& size);
+void read(const char* file_name, BankOperation* array[], int& size);
 
 #endif

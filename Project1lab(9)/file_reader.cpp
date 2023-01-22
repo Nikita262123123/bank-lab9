@@ -2,6 +2,7 @@
 #include "constants.h"
 
 #include <fstream>
+#include <iostream>
 #include <string>
 
 using namespace std;
@@ -53,8 +54,9 @@ void read(const char* file_name, BankOperation* array[], int& size)
             file >> item->type;
             file >> item->account;
 
-            file >> tmp_buffer;
-            item->amount = stod(tmp_buffer);
+            file >> item->amount;
+            // cout << tmp_buffer;
+            // item->amount = stod(tmp_buffer);
 
             file.read(tmp_buffer, 1); // чтения лишнего символа пробела
             file.getline(tmp_buffer, MAX_STRING_SIZE);
